@@ -33,7 +33,7 @@ Use npm install md5 to handle file name store and access.
 
 ## Supported versions
 
-We have tested this component in ReactNative 0.60 - 0.62.5. You can still use it in other versions.
+We have tested this component in ReactNative 0.60 - 0.66.4. You can still use it in other versions.
 
 ## Usage
 
