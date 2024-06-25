@@ -1,6 +1,6 @@
 {
   "name": "rn-weblineindia-image-cache",
-  "version": "0.1.0",
+  "version": "1.0.3",
   "description": "A React Native based component for Image Cache in your application.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -26,7 +26,6 @@
     "!**/.*"
   ],
   "scripts": {
-    "example": "yarn workspace rn-weblineindia-image-cache-example",
     "test": "jest",
     "typecheck": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
@@ -43,12 +42,12 @@
     "type": "git",
     "url": "git+https://github.com/weblineindia/React-Native-Image-Cache.git.git"
   },
-  "author": "rahulas <rahulas@weblineapps.com> (https://github.com/weblineindia/React-Native-Image-Cache.git)",
+  "author": "Weblineindia <partners@weblineindia.com> (https://github.com/weblineindia/React-Native-Image-Cache.git)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/weblineindia/React-Native-Image-Cache.git/issues"
   },
-  "homepage": "https://github.com/weblineindia/React-Native-Image-Cache.git#readme",
+  "homepage": "https://www.weblineindia.com/software-development-resources.html",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
@@ -81,14 +80,10 @@
     "react-native": "*",
     "react-native-fs": "*"
   },
-  "workspaces": [
-    "example"
-  ],
   "packageManager": "yarn@3.6.1",
   "jest": {
     "preset": "react-native",
     "modulePathIgnorePatterns": [
-      "<rootDir>/example/node_modules",
       "<rootDir>/lib/"
     ]
   },
