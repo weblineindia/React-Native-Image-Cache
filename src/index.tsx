@@ -7,15 +7,15 @@
 // Our Github URL : https://github.com/weblineindia
 // **/
 
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import {
-  View,
-  Image,
   ActivityIndicator,
+  Image,
   Platform,
+  View,
   type ImageStyle,
-  type ViewStyle,
   type StyleProp,
+  type ViewStyle,
 } from 'react-native';
 import RNFS from 'react-native-fs';
 import styles from './Style';
@@ -109,6 +109,8 @@ const ImageCacheComponent: React.FC<ImageCacheComponentProps> = ({
   );
 
   const renderImage = () => {
+    console.log('cachedImagePath ==>> ', cachedImagePath);
+    
     return (
       <Image
         source={cachedImagePath}
